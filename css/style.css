@@ -1,0 +1,321 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+.container-fluid{
+  padding: 5% 12%;
+}
+.UP{
+  background-color: #374045;
+}
+.LOG{
+  background-color: #374045;
+}
+h1 , h2 , h3{
+  font-family:"Montserrat-Bold";
+}
+
+p{
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: left;
+}
+.create{
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.try{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 5rem;
+}
+.in{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.fill{
+  font-family: "Ubuntu";
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: light;
+  text-align: center;
+}
+/* Heading */
+
+.big-heading{
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: left;
+}
+.heading{
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+}
+/* Sections */
+
+.colored-section{
+  background-color: #374045;
+  color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Navigation bar */
+.navbar{
+  padding:0 0 4rem;
+}
+
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+
+}
+.nav-item{
+  padding: 0px 12px;
+}
+.nav-link{
+    color: #cccccc;
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: light;
+}
+.row-title{
+  padding-left: 2rem;
+}
+
+/* Download button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+  position: absolute;
+  left: 12rem;
+  font-size: 4rem;
+}
+
+.button{
+  margin: 5% 3% 5% 0;
+  font-size: 2rem;
+}
+.button a:hover{
+  color: #fff;
+}
+a{
+  color: #fff;
+}
+a:hover{
+  color: #ff4c68;
+  text-decoration: none;
+}
+.href{
+  color: #000000;
+}
+/* Title Section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title image */
+
+.title-image{
+  width: 73%;
+  position: absolute;
+  bottom:0.2rem;
+  left: 45rem;
+}
+
+/**image**/
+.image{
+  background-color: #d9adad;
+}
+
+/***SignUp**/
+
+.sign{
+  position: absolute;
+  top: 80px;
+  right: 520px;
+  padding: 15px;
+  padding-bottom: 10px;
+  border: 2px solid #333;
+  background-color: #fff;
+}
+
+
+form-example {
+    display: table;
+}
+
+.form{
+  display: table-row;
+}
+
+
+label, input {
+    display: table-cell;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: light;
+    padding-right: 10px;
+}
+
+/* Set a style for the submit/register button */
+.submit{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  margin-top: 8px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Features Section*/
+.box{
+  padding: 5%;
+  padding-bottom: 15%;
+}
+.feature-box{
+  padding: 3%;
+}
+
+.fas {
+  color: #ef8172;
+  margin: 1rem;
+  font-size: 2.5rem;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+.F{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.E{
+  text-align: center;
+  font-size: 1.2rem;
+}
+/* Testimonials Section */
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+/* Pricing Selector */
+
+#pricing{
+  padding:100px;
+}
+
+.card{
+    border-color: #000000;
+    border: 2px 2px;
+}
+.dog{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+}
+.needs{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.simple{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.card-header{
+  padding-bottom: 2px;
+  border-color: #000000;
+}
+.you{
+  text-align: center;
+  color: #000000;
+}
+
+/* Footer */
+
+.footer{
+  font-size: 1.3rem;
+  font-weight: bold;
+  position: absolute;
+  top: 120rem;
+  left: 38rem;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    width: 85%;
+    position: static;
+    transform: none;
+  }
+  .row-title{
+    padding-bottom: 0.2rem;
+  }
+
+  .nav-link{
+    font-size: 1rem;
+  }
+  .download-button{
+    font-size: 3rem;
+    position: static;
+    top: 5rem;
+    right: 5rem;
+  }
+  .testimonial-image{
+    width: 100%;
+  }
+
+  #pricing{
+    padding-bottom: 50px;
+  }
+  .sign{
+    position: static;
+  }
+  .images{
+    width:25rem;;
+  }
+  .footer{
+    font-size: 1rem;
+    position: static;
+    text-align: center;
+  }
+  }
